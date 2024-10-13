@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from askbootstrap.com/preview/eatsome/my-address.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Oct 2024 14:35:00 GMT -->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="img/logo.png" type="image/png">
+<title>Eatsome - Restaurant & Food Delivery Mobile Template</title>
+
+<link rel="stylesheet" href="vender/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="vender/icons/icofont.min.css">
+
+<link rel="stylesheet" href="vender/slick/slick/slick.css">
+<link rel="stylesheet" href="vender/slick/slick/slick-theme.css">
+
+<link href="vender/fontawesome/css/all.min.css" rel="stylesheet">
+
+<link href="vender/sidebar/demo.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="bg-white shadow-sm p-3">
+<div class="d-flex align-items-center">
+<div class="gap-3 d-flex align-items-center">
+<a href="index.html"><i class="bi bi-arrow-left d-flex text-danger h2 m-0 back-page"></i></a>
+<h3 class="fw-bold m-0">My Addresses</h3>
+</div>
+<div class="ms-auto gap-3 d-flex align-items-center">
+<a href="notifications.html" class="link-dark"><i class="bi bi-bell d-flex m-0 h2"></i></a>
+<a class="toggle osahan-toggle text-dark m-0" href="#"><i class="bi bi-list d-flex m-0 h1"></i></a>
+</div>
+</div>
+</div>
+
+<div class="d-flex align-items-center gap-3 p-3">
+<div class="mb-auto"><i class="fa-solid fa-house h3 m-0"></i></div>
+<div>
+<h5 class="fw-bold mb-1">Home</h5>
+<p class="text-muted mb-2">Rammurthy nagar, Bangalore-560016,<br> Akshya Nagar</p>
+<a href="checkout.html" class="text-decoration-none text-danger">View delivery instructions&nbsp;<i class="fa-solid fa-caret-right"></i></a>
+</div>
+<div class="ms-auto text-end text-danger fs-5">
+<div class="rounded-circle border px-2 py-1 mb-2"><a href="checkout.html" class="text-decoration-none text-danger"><i class="fa-solid fa-ellipsis"></i></a></div>
+<div class="rounded-circle border px-2 py-1"><a href="checkout.html" class="text-decoration-none text-danger"><i class="fa-solid fa-share"></i></a></div>
+</div>
+</div>
+<div class="fixed-bottom p-3">
+
+<button type="button" class="btn btn-danger btn-lg w-100" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<i class="fa-solid fa-plus"></i>&nbsp;Add address
+</button>
+</div>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content border-0">
+<div class="modal-header">
+<h5 class="modal-title" id="staticBackdropLabel">Add new address</h5>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+<div class="mb-3">
+<label class="form-label text-muted">Name</label>
+<input type="text" class="shadow-none form-control" placeholder="Name">
+</div>
+<div class="mb-3">
+<label class="form-label text-muted">Mobile number</label>
+<input type="text" class="shadow-none form-control" placeholder="Mobile number">
+</div>
+<div class="mb-3">
+<label class="form-label text-muted">Full address</label>
+<input type="text" class="shadow-none form-control" placeholder="Enter address">
+</div>
+<div class="mb-3">
+<label class="form-label text-muted">City</label>
+<input type="text" class="shadow-none form-control" placeholder="Enter City">
+</div>
+<div class="mb-0">
+<label class="form-label text-muted">Pincode</label>
+<input type="text" class="shadow-none form-control" placeholder="Enter Pincode">
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-danger btn-lg w-100" data-bs-dismiss="modal">Add Address</button>
+</div>
+</div>
+</div>
+</div>
+
+<nav id="main-nav">
+<ul class="second-nav">
+<li>
+<a href="edit-profile.html" class="bg-danger sidebar-user d-flex align-items-center p-3 border-0 mb-0 rounded-4">
+<img src="img/user.jpg" class="img-fluid rounded-pill me-3 ch-50" alt="#">
+<div class="text-white">
+<h6 class="mb-0">Hi Your Name</h6>
+<small>+91 12345-67890</small><br>
+<span class="f-10 text-white-50">Version 1.32</span>
+</div>
+</a>
+</li>
+<li><a href="index.html"><i class="bi bi-house me-2"></i> Homepage</a></li>
+<li><a href="enable-location.html"><i class="bi bi-geo-alt me-2"></i> Enable Location</a></li>
+<li><a href="location.html"><i class="bi bi-geo me-2"></i> Add Location</a></li>
+<li>
+<a href="#"><i class="bi bi-key me-2"></i> Authentication</a>
+<ul>
+<li><a href="signup.html">Sign In/Up</a></li>
+<li><a href="otp-verify.html">Verification</a></li>
+</ul>
+</li>
+<li><a href="coupons.html"><i class="bi bi-ticket-detailed me-2"></i> Coupons</a></li>
+<li><a href="offers.html"><i class="bi bi-percent me-2"></i> Offers</a></li>
+<li><a href="wallet.html"><i class="bi bi-wallet me-2"></i> Wallet</a></li>
+<li><a href="notification-setting.html"><i class="bi bi-bell-slash me-2"></i> Notification Setting</a></li>
+<li><a href="notifications.html"><i class="bi bi-bell me-2"></i> Notifications</a></li>
+<li><a href="setting.html"><i class="bi bi-gear me-2"></i> Setting</a></li>
+<li><a href="search-list.html"><i class="bi bi-search me-2"></i> Search List</a></li>
+<li><a href="store.html"><i class="bi bi-shop me-2"></i> Store</a></li>
+<li><a href="cart.html"><i class="bi bi-bag me-2"></i> Cart</a></li>
+<li><a href="checkout.html"><i class="bi bi-cart me-2"></i> Checkout</a></li>
+<li><a href="payment.html"><i class="bi bi-credit-card me-2"></i> Payment</a></li>
+<li><a href="add-card.html"><i class="bi bi-credit-card-2-front me-2"></i> Add Card</a></li>
+<li><a href="personal-info.html"><i class="bi bi-person me-2"></i> Personal Info</a></li>
+<li><a href="edit-profile.html"><i class="bi bi-pencil me-2"></i> Edit Profile</a></li>
+<li><a href="my-address.html"><i class="bi bi-map me-2"></i> My Address</a></li>
+<li><a href="your-order.html"><i class="bi bi-view-list me-2"></i> Your Order</a></li>
+<li><a href="order-confirm.html"><i class="bi bi-bag-check me-2"></i> Order Confirm</a></li>
+<li><a href="order-details.html"><i class="bi bi-list-nested me-2"></i> Order Details</a></li>
+<li><a href="support.html"><i class="bi bi-question-circle me-2"></i> Support</a></li>
+</ul>
+<ul class="bottom-nav">
+<li class="email">
+<a class="text-danger nav-item text-center" href="index.html" tabindex="0">
+<p class="h5 m-0"><i class="icofont-ui-home text-danger"></i></p>
+Home
+</a>
+</li>
+<li class="github">
+<a href="offers.html" class="nav-item text-center" tabindex="0">
+<p class="h5 m-0"><i class="icofont-sale-discount"></i></p>
+Offer
+</a>
+</li>
+<li class="ko-fi">
+<a href="support.html" class="nav-item text-center" tabindex="0">
+<p class="h5 m-0"><i class="icofont-support-faq"></i></p>
+Help
+</a>
+</li>
+</ul>
+</nav>
+
+<script src="vender/jquery/jquery.min.js" type="d2ad6edf33a6f9427742f5b0-text/javascript"></script>
+<script src="vender/bootstrap/js/bootstrap.bundle.min.js" type="d2ad6edf33a6f9427742f5b0-text/javascript"></script>
+
+<script src="vender/slick/slick/slick.min.js" type="d2ad6edf33a6f9427742f5b0-text/javascript"></script>
+
+<script src="vender/sidebar/hc-offcanvas-nav.js" type="d2ad6edf33a6f9427742f5b0-text/javascript"></script>
+
+<script src="js/custom.js" type="d2ad6edf33a6f9427742f5b0-text/javascript"></script>
+<script src="../../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="d2ad6edf33a6f9427742f5b0-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8d200cfdec161e75","version":"2024.10.1","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"dd471ab1978346bbb991feaa79e6ce5c","b":1}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from askbootstrap.com/preview/eatsome/my-address.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Oct 2024 14:35:00 GMT -->
+</html>
