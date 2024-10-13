@@ -1,0 +1,1 @@
+(function($){"use strict";$('.demo-slider').slick({infinite:false,arrows:true,autoplay:true,slidesToShow:3.5,slidesToScroll:1,});})(jQuery);
